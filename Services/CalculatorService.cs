@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnitTestDemo.Interfaces;
 
-namespace UnitTestDemo
+namespace UnitTestDemo.Services
 {
     public class CalculatorService
     {

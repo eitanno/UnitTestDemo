@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnitTestDemo
+namespace UnitTestDemo.Interfaces
 {
-    public interface ILoggerService
+    public interface IRepository<T>
     {
-        void Log(string message);
+        IEnumerable<T> GetAll();
     }
 }
